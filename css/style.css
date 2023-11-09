@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+
+}
+
+
+#link {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.up {
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.up:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+
+.product-card {
+    width: 300px;
+    height: 335px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-card h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+
+
+.product-card button {
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+
+.product-card button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+
+#selected-products {
+    display: none;
+    margin: 10px auto;
+    width: 400px;
+    text-align: center;
+    padding: 20px;   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(48, 48, 48, 0.5);
+}
+
+#selected-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#selected-items div {
+    margin: 5px 0;
+}
+
+#show-total {
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    cursor: pointer;
+}
+
+#show-total:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+#total-price {
+    font-size: large;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+
+
+.blank {
+    height: 200px;
+}
